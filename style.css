@@ -204,6 +204,10 @@ nav{
   #no {
     margin-left:390px;
   }
+  #nope:hover {
+    text-decoration: underline;
+    cursor:pointer;
+  }
 @media screen and (max-width: 800px) {
     .sub2 {
         display:none;
