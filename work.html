@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work | Vihaan Pundir</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/pic.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/e4807bb23d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="img/pic.png" width="50px" height="50px" class="sub"></img></a>
+        <a href="work.html" style="margin-left:65%;" class="sub2">Work</a>
+        <a href="about.html" class="sub2">About</a>
+        <i onclick="menu()" id="bars" class="fa-solid fa-bars fa-3x"></i>
+    </nav>
+    <div class="menu" id="menu">
+        <ul>
+          <li><a class='boi' href='work.html'>Work</a></li>
+          <li><a class='boi' href='about.html'>About</a></li>
+        </ul>
+      </div>
+    <div class="overall">
+        <div class="first">
+            <h1 style="margin-left:20px;">eClient</h1>
+            <p class="text">A Minecraft Launcher written completely in Python.</p>
+            <a class="button" href="https://eclient.vpun215.tech/">See live</a>
+            <a href="https://github.com/v-pun215/eClient"><i class="fa-brands fa-github fa-xl"></i></a>
+        </div>
+        <div class="second">
+            <h1 style="margin-left:20px;">Downrinth</h1>
+            <p class="text">A Python module that can install Minecraft mods from Modrinth.</p>
+            <a class="button" href="https://pypi.org/project/downrinth/">See live</a>
+            <a href="https://github.com/v-pun215/Downrinth"><i class="fa-brands fa-github fa-xl"></i></a>
+        </div>
+        <div class="third">
+            <h1 style="margin-left:20px;">eNotes</h1>
+            <p class="text">A web-based notepad that saves your work as you write.</p>
+            <a class="button" href="https://enotes.vpun215.tech/">See live</a>
+            <a href="https://github.com/v-pun215/eNotes"><i class="fa-brands fa-github fa-xl"></i></a>
+        </div>
+        <div class="fourth">
+            <h1 style="margin-left:20px;">eClient Online</h1>
+            <p class="text">Play Minecraft on the web. Based of off Eaglercraft.</p>
+            <a class="button" href="https://online.vpun215.tech/">See live</a>
+            <a href="https://github.com/v-pun215/eClient-Online"><i class="fa-brands fa-github fa-xl"></i></a>
+        </div>
+    </div>
+    <script>
+        function menu(){
+  let x = document.getElementById("menu");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+    x.style.animation = "fadeOutAnimation ease 0.2s";
+    x.style.animationIterationCount = "1";
+    x.style.animationFillMode = "forwards";
+  } 
+}
+</script>
+</body>
+</html>
