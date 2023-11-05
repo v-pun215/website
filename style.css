@@ -9,6 +9,9 @@ html {
 p {
     cursor:default;
 }
+h1 {
+    cursor:default;
+}
 body{
     margin:0;
     height:100%;
