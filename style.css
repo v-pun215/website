@@ -6,6 +6,9 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+p {
+    cursor:default;
+}
 body{
     margin:0;
     height:100%;
