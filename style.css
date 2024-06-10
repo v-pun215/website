@@ -83,6 +83,7 @@ nav{
 :root {
     color-scheme: dark;
   }
+
 .first {
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: saturate(180%) blur(10px);
@@ -92,8 +93,6 @@ nav{
     height:220px;
     border-radius:30px;
     margin-top:5%;
-    margin-left:7%;
-    float:left;
 }
 .text {
     font-size:20px;max-width: 350px;margin: 20px 20px 30px;
@@ -123,7 +122,6 @@ nav{
     color:white;
 }
 .second {
-    float:left;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: saturate(180%) blur(10px);
     width:380px;
@@ -131,11 +129,8 @@ nav{
     transition: all .2s ease-in-out; 
     height:220px;
     border-radius:30px;
-    margin-top:5%;
-    margin-left:5%;
 }
 .third {
-    float:right;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: saturate(180%) blur(10px);
     width:380px;
@@ -147,7 +142,6 @@ nav{
     margin-right:22%;
 }
 .fourth {
-    float:right;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: saturate(180%) blur(10px);
     width:380px;
